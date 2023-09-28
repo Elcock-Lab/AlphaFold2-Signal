@@ -22,4 +22,4 @@ With all the above in mind, the code could be run thus:
 
 The code generates a single output file that is self-explanatory - this is:
 
-signal_contacts.txt
+`signal_contacts.txt`
