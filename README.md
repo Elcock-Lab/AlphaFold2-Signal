@@ -4,7 +4,7 @@ Simple Fortran code that analyzes atomic contacts between a predicted signal and
 # Compilation
 The code is very simple so should be easy to compile with any Fortran compiler such as gfortran. e.g.:
 
-gfortran analyze_alphafold2_make_contact_map_signal_for_release.f -o analyze_alphafold2_make_contact_map_signal_for_release.exe
+`gfortran analyze_alphafold2_make_contact_map_signal_for_release.f -o analyze_alphafold2_make_contact_map_signal_for_release.exe`
 
 # Using the code
 
@@ -18,7 +18,7 @@ The code has five input arguments and produces one output file. Argument are:
 
 With all the above in mind, the code could be run thus:
 
-./analyze_alphafold2_make_contact_map_signal_for_release.exe your-alphafold2-pdb-here 4.0 25 90.0 4
+`./analyze_alphafold2_make_contact_map_signal_for_release.exe your-alphafold2-pdb-here 4.0 25 90.0 4`
 
 The code generates a single output file that is self-explanatory - this is:
 
